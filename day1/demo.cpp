@@ -1,5 +1,8 @@
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
 int main(){
-    std::cout << "Hello world 2";
+    int x,y;
+    cin >> x >> y;
+    cout << "Val of X: " << "and y: " << y;
     return 0;
 }
