@@ -1,8 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+void printName(string name){
+    cout << "name: " << name;
+}
+
 int main(){
-    int x,y;
-    cin >> x >> y;
-    cout << "Val of X: " << "and y: " << y;
+    printName("ayush");
     return 0;
 }
+
